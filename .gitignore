@@ -1,0 +1,37 @@
+# --- OS / editor junk ---
+.DS_Store
+*~
+
+# --- root-level assets not for the repo ---
+/logo.png
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- LaTeX build artifacts (anywhere in the repo) ---
+*.aux
+*.bbl
+*.blg
+*.bcf
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# --- lectures/: keep compiled PDFs only, not the source ---
+lectures/**/*.tex
+lectures/**/*.bib
+lectures/activation_plots/
